@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #9f9f9fa3;
+  border-radius: 3px;
+  width: 610px;
+  padding-bottom: 5px;
+  .header_title {
+    color: #06126a;
+    margin-left: 25px;
+  }
+}
+.currency {
+  display: flex;
+  gap: 30px;
+  margin-left: 96px;
+  height: 40px;
+
+  .currency_content {
+    display: flex;
+    gap: 12px;
+    border-radius: 5px;
+    background-color: #ffffff80;
+    padding: 0 5px;
+    & p {
+      margin-top: 11px;
+    }
+  }
+}
