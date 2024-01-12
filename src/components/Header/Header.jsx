@@ -24,7 +24,7 @@ const Header = () => {
     return usdRateObject ? usdRateObject.rate : 'Not Found';
   };
    const getEURRate = () => {
-    const eurRateObject = exchangeRates.find(rate => rate.cc === 'USD');
+    const eurRateObject = exchangeRates.find(rate => rate.cc === 'EUR');
     return eurRateObject ? eurRateObject.rate : 'Not Found';
   };
   return (
@@ -32,11 +32,11 @@ const Header = () => {
       <h2 className="header_title">Currency Counter</h2>
       <div className="currency">
         <div className="currency_content">
-          <img src="../../../public/icon/USD.svg" alt="USD icon" />
+          <img src="/Currency-Converter/icon/USD.svg" alt="USD icon" />
           <p>{getUSDRate()}</p>
         </div>
         <div className="currency_content">
-          <img src="../../../public/icon/EUR.svg" alt="EUR icon" />
+          <img src="/Currency-Converter/icon/EUR.svg" alt="EUR icon" />
           <p>{getEURRate()}</p>
         </div>
       </div>

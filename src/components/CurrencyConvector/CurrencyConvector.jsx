@@ -98,7 +98,7 @@ const CurrencyConvector = () => {
         onChangeAmount={handleAmountChange}
       />
       <img
-        src="../../../public/icon/arrowConvector.svg"
+        src="/Currency-Converter/icon/arrowConvector.svg"
         alt="arrow"
         className="convectorBtn"
       />

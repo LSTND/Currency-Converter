@@ -1,7 +1,10 @@
 .convector_container {
   display: flex;
   gap: 50px;
-.convectorIcon {
+     @media screen and (max-width: 462px) {
+      gap: 25px;
+     }
+  .convectorIcon {
     border: none;
     background: none;
     padding: 0;
@@ -9,4 +12,3 @@
     justify-content: center;
   }
 }
-
